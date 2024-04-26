@@ -1,0 +1,418 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hi there! How may I help you?",
+        "Hey! How can I assist you?"
+      ]
+    },
+    
+    {
+      "tag": "JNTUK_Info",
+      "patterns": [
+        "About JNTUGV.",
+        "JNTUGV.",
+        "More about JNTUGV University College of Engineering Vizianagaram?",
+        "Information about JNTUGV?",
+        "Role of JNTUGV University?"
+      ],
+      "responses": [
+        "JNTUGV University College of Engineering Vizianagaram is one of the Engineering Colleges, playing a vital role in imparting Technological Education in the state of Andhra Pradesh since its establishment in the year 2007. The state-of-the-art campus is spread across 80 Acres in Dwarapudi panchayat, at a distance of 8 KMs from Vizianagaram. It functions under the directions of Executive Council, Vice chancellor, and Registrar of JNTUGV. The Principal is the executive head of the institution and Chairman of the College academic committee comprising all professors and heads of the departments. The Vice Principal, Heads of the departments, and Members of College academic committee help in academic administration and the effective functioning of the Institution."
+      ]
+    },
+    {
+      "tag": "JNTUGV_Vision_Mission",
+      "patterns": [
+        "Vision of JNTUGV University",
+        "Vision.",
+        "Mission of JNTUGV University",
+        "Mission."
+      ],
+      "responses": [
+        "The vision of JNTUGV University College of Engineering Vizianagaram is to emerge as a premier technical institution in the field of engineering and research, with a focus on producing professionally competent and socially sensitive engineers capable of working in a multidisciplinary global environment.The mission of JNTUGV University College of Engineering Vizianagaram is to provide high-quality technical education through a creative balance of academia and industry by adopting highly effective teaching-learning processes. It also aims to promote multidisciplinary research with a global perspective to attain professional excellence and establish standards that inculcate ethical and moral values contributing to the growth and development of society."
+      ]
+    },
+    {
+      "tag": "Vizianagaram_Info",
+      "patterns": [
+        "About Vizianagaram.",
+        "Vizianagaram?",
+        "I want to know more about Vizianagaram.",
+        "Where is Vizianagaram located?",
+        "Significance of Vizianagaram?"
+      ],
+      "responses": [
+        "Vizianagaram is the main city of the Vizianagaram District of North Eastern Andhra Pradesh in Southern India. An important center for commerce and education, the city is located 42 km to the northeast of Visakhapatnam. Vizianagaram translates to the 'city of victory'."
+      ]
+    },
+    {
+      "tag": "Reach_JNTUGV",
+      "patterns": [
+        "How can I reach Vizianagaram and JNTUGV campus?",
+        "Directions to JNTUGV campus?",
+        "How to reach JNTUGV campus."
+      ],
+      "responses": [
+        "Vizianagaram can be easily reached as it is located across the NH43 (National Highway road) and well connected to all major cities and towns. The city has a railway junction on the Chennai – Howrah line, with trains like Visakha Express, Konark Express, Howrah Express, East Coast Express, Hirakhand Express, and Dhanbad Express halting here. The nearest domestic airport is at Visakhapatnam, approximately 62 km away, while the nearest international airport is at Shamshabad, Hyderabad, nearly 640 km away.\n\nFrom Vizianagaram APSRTC Bus Complex, you can board any bus heading towards the Saluru – Bobbili Route and get off at the JNTU Bus Stop (around 5.5KM away), then walk 1.5 KM west to reach the campus. Alternatively, you can hire an auto-rickshaw from any major point in Vizianagaram to JNTUGV Campus (charges around Rs. 100/-).\n\nDriving Directions from APSRTC Bus Station, Vizianagaram:\n1. Head west on Bus Stand Rd towards Railway Station Rd (180 m)\n2. Continue straight at Mayura Junction (Traffic Signals) (130 m)\n3. At the roundabout, take the 2nd exit and stay on NH 43, passing by Police Barracks and Collectorate Junction (5.2 km)\n4. Continue on JNTUGV- Campus Rd to your destination (2.2 km / 5 min)\n5. Turn left onto JNTUK- Campus Rd and continue straight to reach UCEV."
+      ]
+    },
+    {
+      "tag": "Chancellor_Info",
+      "patterns": [
+        "Chancellor of JNTUGV, Vizianagaram?",
+        "Chancellor",
+        "Information about the Chancellor of JNTU Gurajada, Vizianagaram?",
+        "Tell me about the Chancellor of JNTU Gurajada, Vizianagaram.",
+        "I want to know about the Chancellor of JNTU Gurajada, Vizianagaram."
+      ],
+      "responses": [
+        "Syed Abdul Nazeer, born on 5 January 1958, is a former judge of the Supreme Court of India and currently serving as the 24th Governor of Andhra Pradesh. He was appointed as the Governor of Andhra Pradesh on 12 February 2023."
+      ]
+    },
+    {
+      "tag": "Vice_Chancellor_Info",
+      "patterns": [
+        "Vice Chancellor of JNTUGV, Vizianagaram?",
+        "Vice Chancellor",
+        "Information about the Vice Chancellor of JNTU Gurajada, Vizianagaram?",
+        "Tell me about the Vice Chancellor of JNTU Gurajada, Vizianagaram.",
+        "I want to know about the Vice Chancellor of JNTU Gurajada, Vizianagaram."
+      ],
+      "responses": [
+        "Dr. Venkata Subbaiah Kambagowni is the founder Vice-Chancellor of Jawaharlal Nehru Technological University, Gurajada, Vizianagaram. He is an academician par excellence, a beloved teacher, and a focused leader with the vision to improve Indian education to internationally approved standards."
+      ]
+    },
+    {
+      "tag": "Registrar_Info",
+      "patterns": [
+        "Registrar of JNTU Gurajada, Vizianagaram?",
+        "Registrar",
+        "Information about the Registrar of JNTU Gurajada, Vizianagaram?",
+        "Tell me about the Registrar of JNTU Gurajada, Vizianagaram.",
+        "I want to know about the Registrar of JNTU Gurajada, Vizianagaram."
+      ],
+      "responses": [
+        "Dr. G. Jaya Suma, presently working as a Professor in the Department of Information Technology, serves as the Registrar, Director (in charge) of Industry Institute Interaction Placements & Training, Director (in charge) of Faculty Development Cell, and Executive Council member of JNTUGV - Vizianagaram, AP. She holds a B.Tech (CS&SE), MTech (CS&T), and Ph.D. (CSE) degree, with over 22 years of experience in Teaching, Research, and Administration of Engineering Education."
+      ]
+    },
+    {
+      "tag": "Branches_Info",
+      "patterns": [
+        "Branches offered at JNTU Gurajada, Vizianagaram?",
+        "Branches",
+        "List of programs available at JNTU Gurajada, Vizianagaram?",
+        "Tell me about the branches available at JNTU Gurajada, Vizianagaram.",
+        "I want to know about the programs offered at JNTU Gurajada, Vizianagaram."
+      ],
+      "responses": [
+        "Jawaharlal Nehru Technological University, Gurajada, Vizianagaram offers the following branches/programs: Civil Engineering, Electrical and Electronics Engineering, Mechanical Engineering, Electronics & Communication Engineering, Computer Science & Engineering, Information Technology and Metallurgical Engineering"
+      ]
+    },
+    {
+      "tag": "Admission_Info",
+      "patterns": [
+        "How can I get admission to B.Tech programs at JNTU Gurajada, Vizianagaram?",
+        "What is the admission process for B.Tech programs at JNTU Gurajada, Vizianagaram?",
+        "Can you provide information about B.Tech admissions at JNTU Gurajada, Vizianagaram?"
+      ],
+      "responses": [
+        "Admission to regular B.Tech programs at JNTU Gurajada, Vizianagaram is based on the rank secured in the Engineering, Agriculture & Medicine Common Entrance Test (EAMCET) conducted by Andhra Pradesh State Council of Higher Education (APSCHE), Andhra Pradesh."
+      ]
+    },
+    {
+      "tag": "M.Tech_Admission_Info",
+      "patterns": [
+        "How can I get admission to M.Tech programs at JNTU Gurajada, Vizianagaram?",
+        "What is the admission process for M.Tech programs at JNTU Gurajada, Vizianagaram?",
+        "Can you provide information about M.Tech admissions at JNTU Gurajada, Vizianagaram?"
+      ],
+      "responses": [
+        "Admission to regular M.Tech programs at JNTU Gurajada, Vizianagaram is based on the ranking in the Graduate Aptitude Test in Engineering (GATE) or Post Graduate Engineering Common Entrance Test (PGECET) conducted by Andhra Pradesh State Council of Higher Education (APSCHE), Andhra Pradesh."
+      ]
+    },
+    {
+      "tag": "B.Tech_Fees_Info",
+      "patterns": [
+        "What are the fees for B.Tech at JNTUGV?",
+        "Can you provide information about B.Tech fees at JNTUGV?"
+      ],
+      "responses": [
+        "The fees for B.Tech at JNTUGV are as follows:\n\nTuition Fees:\n1st Year: 10,000/-\n2nd Year: 10,000/-\n3rd Year: 10,000/-\n4th Year: 10,000/-\n\nAccount Details:\nBank/Branch: S.B.I.Branch, Vizianagaram\nAccount Name: Principal, JNTUGV, Tuition Fee\nAccount No.: 62072918414\nIFSC Code: SBIN0020931"
+      ]
+    },
+    {
+      "tag": "M.Tech_Fees_Info",
+      "patterns": [
+        "What are the fees for M.Tech at JNTUGV?",
+        "Can you provide information about M.Tech fees at JNTUGV?"
+      ],
+      "responses": [
+        "The fees for M.Tech at JNTUGV are as follows:\n\nRegular (Per Year):\n1st Year: 50,000/-\n2nd Year: 50,000/-\n\nAccount Details:\nBank/Branch: S.B.I.Branch, Vizianagaram\nAccount Name: Principal, JNTUGV, Tuition Fee\nAccount No.: 62072918414\nIFSC Code: SBIN0020931"
+      ]
+    },
+    {
+      "tag": "MCA_Fees_Info",
+      "patterns": [
+        "What are the fees for MCA at JNTUGV?",
+        "Can you provide information about MCA fees at  JNTUGV?"
+      ],
+      "responses": [
+        "The fees for MCA at JNTUGV are as follows:\n\nRegular (Per Year):\n1st Year: 27,000/-\n2nd Year: 27,000/-\n3rd Year: 27,000/-\n\nAccount Details:\nBank/Branch: S.B.I.Branch, Vizianagaram\nAccount Name: Principal, JNTUGV, Tuition Fee\nAccount No.: 62072918414\nIFSC Code: SBIN0020931"
+      ]
+    },
+    {
+      "tag": "Payment_Procedure",
+      "patterns": [
+      "How can I make a payment for tuition or special fee?",
+      "What is the procedure for payment through SBI Collect?"
+      ],
+      "responses": [
+      "To make a payment for tuition or special fee through SBI Collect, you need to visit the web page https://www.onlinesbi.com/sbicollect/icollecthome.htm and accept the terms & conditions. Then, select the State as ‘Andhra Pradesh’ and the Type of institution as ‘Educational Institutions’. Next, choose ‘PRINICPAL JNTUGV VIZIANAGARAM’ and select the payment category as ‘Tuition Fee or Special Fee’. Enter the necessary details and verify them before confirming the payment. Choose your preferred mode of payment (Net Banking/Debit or Credit card/other payment modes) and complete the transaction by entering the OTP sent to your phone. Finally, download & print the e-Receipt for submission at the hostel office as proof of payment."
+      ]
+      },
+      {
+        "tag": "College_Academic_Committee_Objectives",
+        "patterns": [
+        "What are the objectives of the College Academic Committee (CAC)?",
+        "Can you list the objectives of the College Academic Committee?",
+        "What is the role of the College Academic Committee?"
+        ],
+        "responses": [
+        "The objectives of the College Academic Committee (CAC) include organizing and coordinating teaching and research within the college, recommending courses of study for examinations, fostering collaboration with employment agencies and industrial organizations, maintaining student discipline and welfare activities, promoting consultancy services, recommending scholarships and fellowships, and addressing any other matters referred to it by the Academic Senate, Council, or other university authorities."
+        ]
+        },
+        {
+          "tag": "College_Facilities",
+          "patterns": [
+          "What facilities are available in the college?",
+          "Can you list the facilities provided by the college?"
+          ],
+          "responses": [
+          "The college offers various facilities including:\n- Library\n- Canteen\n- Hostels\n- Sports & Fitness Center\n- Dispensary\n- Banking Services\n- Engineering Cell\n- Staff Quarters\n- Guest Houses\n- Campus Life amenities"
+          ]
+          },
+          {
+            "tag": "NSS_Info",
+            "patterns": [
+            "What is the National Service Scheme (NSS)?",
+            "Can you provide information about NSS?"
+            ],
+            "responses": [
+            "The National Service Scheme (NSS) is a Central Sector Scheme initiated by the Government of India, Ministry of Youth Affairs & Sports in 1969, commemorating the birth centenary year of Mahatma Gandhi. It provides a platform for students, including graduate, postgraduate, and 11th & 12th class school students, to participate in social service-related programs organized by various government-led communities. Participation in NSS activities helps students build their personality, develop a democratic attitude, leadership qualities, civic and social responsibilities, and enables them to take active roles in the community. Additionally, it aids in developing skills for organizing community participation, fosters national integration, and promotes social harmony."
+            ]
+            },
+            {
+              "tag": "WE_GC_Info",
+              "patterns": [
+              "What is the Women Empowerment and Grievance Cell (WE&GC) at JNTUGV?",
+              "Can you provide information about WE&GC?"
+              ],
+              "responses": [
+              "The Women Empowerment and Grievance Cell (WE&GC) at JNTUGV is dedicated to empowering and safeguarding the rights of the female fraternity within the college. Its primary objective is to empower female students to recognize their true potentials and establish their standing in a competitive world. The WE&GC works towards promoting gender sensitivity within the college community and conducts various programs to educate and sensitize both male and female members, fostering a harmonious atmosphere on campus. Additionally, it focuses on the welfare of students and faculty, preparing them to become competent professionals capable of tackling greater challenges in the academic sphere."
+              ]
+              },
+              
+{
+  "tag": "EDC_Info",
+  "patterns": [
+  "What is the Entrepreneurship Development Cell (EDC) at JNTUGV?",
+  "Can you provide information about EDC?"
+  ],
+  "responses": [
+  "The Entrepreneurship Development Cell (EDC) at JNTUGV, Vizianagaram was established in November 2013 under the direction, vision, and mission of the university authorities. The primary goal of the CED is to foster entrepreneurship among students and encourage them to become job creators rather than job seekers. Through various initiatives and programs, the EDC aims to nurture the entrepreneurial spirit among students, provide them with necessary skills, resources, and guidance to start their ventures, and contribute to the overall development of an entrepreneurial ecosystem within the college and beyond."
+  ]
+  },
+  {
+    "tag": "IIPC_Info",
+    "patterns": [
+    "What is the Industry Institute Partnership Cell (IIPC) at JNTUGV, Vizianagaram?",
+    "Can you provide information about IIPC?"
+    ],
+    "responses": [
+    "The Industry Institute Partnership Cell (IIPC) at JNTUGV, Vizianagaram is a dedicated platform instituted to facilitate synchronized efforts between the industry and the university. Recognizing the crucial role of both industry and academia in economic development, the IIPC aims to foster collaboration, innovation, and knowledge exchange between the two sectors. By bridging the gap between industry requirements and academic curriculum, the IIPC strives to enhance the employability of students, promote research and development activities, and contribute to overall economic growth and development."
+    ]
+    },
+    {
+      "tag": "Digital_Monitoring_Cell_Info",
+      "patterns": [
+        "What is the Digital Monitoring Cell?",
+        "Can you provide information about the Digital Monitoring Cell?"
+      ],
+      "responses": [
+        "The Digital Monitoring Cell is a unit responsible for overseeing and managing digital infrastructure, systems, and technologies within an organization. It ensures the efficient functioning and maintenance of digital platforms, networks, and software applications. The Digital Monitoring Cell may also be involved in monitoring cybersecurity measures and ensuring compliance with digital policies and regulations."
+      ]
+    },
+    {
+      "tag": "R&D_Info",
+      "patterns": [
+        "What is Research and Development (R&D)?",
+        "Can you provide information about R&D?"
+      ],
+      "responses": [
+        "Research and Development (R&D) is a systematic process of investigating, discovering, and innovating new technologies, products, processes, or services. In an educational institution or organization, R&D activities involve conducting scientific research, experiments, and studies to advance knowledge, solve problems, and drive innovation in various fields. R&D efforts contribute to the growth, competitiveness, and sustainability of institutions and industries."
+      ]
+    },
+    {
+      "tag": "Academic_Audit_Cell_Info",
+      "patterns": [
+        "What is the Academic and Audit Cell?",
+        "Can you provide information about the Academic and Audit Cell?"
+      ],
+      "responses": [
+        "The Academic and Audit Cell is responsible for conducting internal audits and assessments of academic processes, curriculum, and educational standards within an institution. It ensures compliance with regulatory requirements, accreditation standards, and best practices in teaching, learning, and evaluation. The Academic and Audit Cell plays a key role in quality assurance, improvement initiatives, and institutional accreditation processes."
+      ]
+    },
+    {
+      "tag": "Examination_Cell_Info",
+      "patterns": [
+        "What is the Examination Cell?",
+        "Can you provide information about the Examination Cell?"
+      ],
+      "responses": [
+        "The Examination Cell is a department or unit within an educational institution responsible for organizing, managing, and conducting examinations. It oversees the scheduling, administration, and evaluation of examinations, ensuring fairness, transparency, and integrity in the assessment process. The Examination Cell also handles tasks related to exam logistics, result processing, and academic record management."
+      ]
+    },
+    {
+      "tag": "Placement_Cell_Info",
+      "patterns": [
+        "What is the Placement Cell?",
+        "Can you provide information about the Placement Cell?"
+      ],
+      "responses": [
+        "The Placement Cell is a dedicated department or unit within an educational institution that facilitates the placement of students into suitable job positions or internships. It collaborates with companies, organizations, and industries to organize recruitment drives, job fairs, and campus interviews. The Placement Cell also provides career counseling, training, and guidance to students to enhance their employability skills and prepare them for the professional world."
+      ]
+    },
+    {
+      "tag": "placement_assistance",
+      "patterns": [
+        "Does the college provide placement assistance?",
+        "Tell me about the placement services",
+        "How does the college support placement activities?"
+      ],
+      "responses": [
+        "Yes, the college has a dedicated placement cell that facilitates placement drives, internships, and industry interactions.",
+        "The placement cell organizes various activities such as mock interviews, aptitude tests, and resume workshops to prepare students for placements.",
+        "Our college has tie-ups with leading companies and conducts placement drives to provide job opportunities to students."
+      ]
+    },
+    {
+      "tag": "crt_classes",
+      "patterns": [
+        "Are there any CRT classes conducted?",
+        "Tell me about the CRT (Campus Recruitment Training) programs",
+        "Can you provide information about the CRT sessions?"
+      ],
+      "responses": [
+        "Yes, the college conducts CRT classes to enhance students' aptitude, communication skills, and technical knowledge.",
+        "CRT programs focus on improving students' employability skills through workshops, seminars, and mock interviews.",
+        "CRT sessions cover various aspects including resume building, group discussions, technical interviews, and personality development."
+      ]
+    },
+    {
+      "tag": "resume_preparation",
+      "patterns": [
+        "How to prepare a resume for placements?",
+        "Tell me about resume writing tips",
+        "Can you provide guidance on resume preparation?"
+      ],
+      "responses": [
+        "When preparing a resume, highlight your academic achievements, projects, internships, and extracurricular activities.",
+        "Keep your resume concise, well-structured, and tailored to the job requirements.",
+        "Include relevant skills, certifications, and accomplishments to make your resume stand out to recruiters."
+      ]
+    },
+    {
+      "tag": "skill_development",
+      "patterns": [
+        "How can I improve my skills?",
+        "Tell me about skill development programs",
+        "Can you provide tips for learning new skills?"
+      ],
+      "responses": [
+        "You can enhance your skills through online courses, workshops, hands-on projects, and industry certifications.",
+        "Participate in skill development programs, hackathons, and coding competitions to sharpen your technical abilities.",
+        "Explore resources such as tutorials, books, and online platforms to learn new skills and stay updated with industry trends."
+      ]
+    },
+    {
+      "tag": "extra_curricular_activities",
+      "patterns": [
+        "What extra-curricular activities are available?",
+        "Tell me about the clubs and societies in the college",
+        "Can you provide information about extracurricular events?"
+      ],
+      "responses": [
+        "The college offers a range of extracurricular activities including sports, cultural events, technical clubs, and social initiatives.",
+        "Students can participate in clubs and societies related to music, dance, photography, robotics, and entrepreneurship.",
+        "Extracurricular events such as fests, hackathons, workshops, and seminars provide opportunities for students to showcase their talents and network with peers."
+      ]
+    },
+    {
+      "tag": "thankful",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate your help"
+      ],
+      "responses": [
+        "You're welcome! Feel free to ask if you have any more questions.",
+        "Glad I could assist you. Let me know if there's anything else I can help with.",
+        "No problem! Don't hesitate to reach out if you need further assistance."
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Have a nice day",
+        "Bye"
+      ],
+      "responses": [
+        "Goodbye! Take care and best of luck..",
+        "See you later! If you need assistance in the future, don't hesitate to contact us.",
+        "Have a nice day! Feel free to reach out if you have any more questions."
+      ]
+    }
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+   
+   
+   
+   
+    
+   
+  ]
+}

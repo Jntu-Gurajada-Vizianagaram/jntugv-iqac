@@ -1,0 +1,298 @@
+.ABOUT-Main {
+  display: flex;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.ABOUTallLeftMenu {
+  margin-top: 10px;
+  margin-right: 60px;
+}
+
+
+.ABOUTallLeftMenu .menubutton {
+
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  width: 300px;
+  height: 60px;
+  /* Set a fixed height for your buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 13%;
+}
+
+/* Hover state */
+.ABOUTallLeftMenuAOP .menubutton:hover {
+  background-color: #2e0669;
+}
+
+/* Selected state */
+.ABOUTallLeftMenuAOP .menubutton.active {
+  background-color: #2e0669;
+}
+
+
+.ABOUTallLeftMenu a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-weight: bold;
+}
+
+.columns-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.column {
+  text-align: left;
+  width: 50%;
+  /* Adjust the width as needed, leaving some space for margin */
+}
+
+/* Button structure */
+.ABOUTallLeftMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Default button style */
+.ABOUTallLeftMenu .menuButton {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  /* Set a fixed width for your buttons */
+  height: 60px;
+  /* Set a fixed height for your buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover state */
+.ABOUTallLeftMenu .menuButton:hover {
+  background-color: #2e0669;
+}
+
+
+
+/* Selected state */
+.ABOUTallLeftMenu .menuButton.active {
+  background-color: #2e0669;
+
+}
+
+.a {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(20, 6, 63);
+}
+
+.allRightContentContainer {
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  flex-direction: column;
+  margin-top: 20px; */
+}
+
+.updatePanelAndNewsContainer {
+  display: flex;
+}
+
+.updatePanelAndNewsContainer>* {
+  margin-right: 20px;
+  /* Adjust the margin as needed */
+}
+
+
+
+.allRightContentHeading {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #2e0669;
+  margin-right: 0px;
+}
+
+.allRightContentProfile {
+  /* display: flex;
+      flex-direction: column;
+      align-items: center; */
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+  /* Add any additional styles you need */
+}
+
+.allRightContent {
+  margin-right: -110vh;
+  width: 100%;
+  align-items: center;
+  /* Center the container horizontally */
+  text-align: center;
+  flex: 1;
+  /* Use flex to allow this container to grow and take available space */
+}
+
+
+.allRightContent {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.UpdatePanel {
+  margin-top: -503px;
+}
+
+.NewsAndEventsContainer {
+  display: flex;
+  /* flex-direction: ; */
+  /* justify-content: space-between; */
+  /* margin-top: 400px; */
+  /* Adjust margin for separation */
+}
+
+.NewsandEvents {
+  /* Set width for NewsandEvents */
+  width: 60%;
+  /* Adjust as needed */
+}
+
+.Scrollbar {
+  width: 30%;
+  /* Adjust as needed */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scroll-padding: 10px;
+}
+
+.link-container {
+  /* border: 2px solid #1b1b1b ; */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.link-wrapper {
+  
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+
+
+.nav-link:hover {
+  /* Add your styles for the Link component on hover here */
+  text-decoration: underline;
+}
+
+.blinking-text {
+  animation: blink-animation 1s infinite;
+  color: blue;
+  /* Change the color to blue or any other color you prefer */
+}
+
+.iqacMessageContainer {
+  background-color: #DCDCDC;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.iqacMessage {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.iqacmsg{
+  color: orange;
+}
+
+.signature {
+  text-align: right;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+
+@keyframes blink-animation {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .ABOUT-Main {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .allRightContentContainer {
+    display: flex;
+    /* justify-content: start; */
+    /* align-items: center;
+  flex-direction: column;
+  margin-top: 20px; */
+  }
+
+  .NewsAndEventsContainer{
+    flex-direction: column;
+  }
+
+  .allRightContent {
+    margin-right: 0vh;
+  }
+
+
+  /* .columns-container {
+    display: flex;
+    justify-content: space-around; 
+  }
+  
+  .column {
+    text-align: left;
+    width: 50%; 
+  } */
+  
+}
