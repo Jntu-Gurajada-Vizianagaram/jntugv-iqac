@@ -1,12 +1,12 @@
 // Import your PDF files
-import AnnualReport2019_2020 from './AnnualReport2019-2020.pdf';
-import AnnualReport2018_2019 from './AnnualReport2018-2019.pdf';
 import AnnualReport2017_2018 from './AnnualReport2017-2018.pdf';
+import AnnualReport2018_2019 from './AnnualReport2018-2019.pdf';
+import AnnualReport2019_2020 from './AnnualReport2019-2020.pdf';
+import AuditReport2017_2018 from './AuditReport17-18.pdf';
+import AuditReport2018_2019 from './AuditReport18-19.pdf';
+import AuditReport2019_2020 from './AuditReport19-20.pdf';
 import AuditReport2021_2022 from './AuditReport20-21.pdf';
 import AuditReport2020_2021 from './AuditReport21-22.pdf';
-import AuditReport2019_2020 from './AuditReport19-20.pdf';
-import AuditReport2018_2019 from './AuditReport18-19.pdf';
-import AuditReport2017_2018 from './AuditReport17-18.pdf';
 // import AR11-12 from './AR11-12.pdf';
 // import AR15-16 from './AR15-16.pdf';
 // import AR17-18-19 from './AR17-18-19.pdf';
@@ -16,6 +16,7 @@ import AR15_16 from './AR15-16.pdf';
 import AR17_18_19 from './AR17-18-19.pdf';
 import AR19_20 from './AR19-20.pdf';
 import AR22_23 from './AR22-23.pdf';
+import AAR23_24 from './Academic_Audit 2023-24.pdf';
 
   
 
@@ -36,7 +37,11 @@ const AnnualQualityAssuranceReport = [
     name: "View/Download",
   },
 
-
+{
+  sno:"Report 2023-24",
+  pdfPath:AAR23_24,
+  name:"View/Download",
+},
   {
     sno: "Report 2022-23",
     pdfPath: AR22_23,
